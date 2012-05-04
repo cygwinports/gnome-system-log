@@ -1,0 +1,6 @@
+category: Gnome
+requires: libglib2.0_0 libgtk3_0 libintl8 libpango1.0_0 zlib0
+sdesc: "GNOME system log viewer"
+ldesc: "Includes six GNOME Desktop utilities: baobab (filesystem monitor),
+gnome-dictionary, gnome-font-viewer, gnome-screenshot, gnome-search-tool, and
+gnome-system-log."
