@@ -1,0 +1,12 @@
+inherit gnome2
+
+NAME="gnome-system-log"
+VERSION=3.6.1
+RELEASE=1
+CATEGORY="GNOME"
+SUMMARY="GNOME system log viewer"
+DESCRIPTION="Includes six GNOME Desktop utilities: baobab (filesystem monitor),
+gnome-dictionary, gnome-font-viewer, gnome-screenshot, gnome-search-tool, and
+gnome-system-log."
+
+ACLOCAL_FLAGS="-I libgd"
