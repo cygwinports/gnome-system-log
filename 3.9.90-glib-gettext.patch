@@ -1,0 +1,12 @@
+--- origsrc/gnome-system-log-3.9.90/configure.ac	2013-08-20 11:19:00.000000000 -0500
++++ src/gnome-system-log-3.9.90/configure.ac	2014-03-26 11:12:49.611088100 -0500
+@@ -21,8 +21,7 @@ PKG_PROG_PKG_CONFIG([0.22])
+ 
+ AC_PATH_PROG(GLIB_GENMARSHAL, [glib-genmarshal])
+ 
+-AM_GNU_GETTEXT([external])
+-AM_GNU_GETTEXT_VERSION([0.17])
++AM_GLIB_GNU_GETTEXT
+ 
+ AC_PROG_CC
+ AM_PROG_CC_C_O
